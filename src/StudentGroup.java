@@ -12,6 +12,10 @@ public class StudentGroup implements Iterable<Student>, Comparable<StudentGroup>
         this.studentList = studentList;
     }
 
+    public void createStudent(String firstName, String surName, String lastName) {
+        studentList.add(new Student(firstName, lastName, surName));
+    }
+
     @Override
     public Iterator<Student> iterator() {
         return new StudentGroupIterator(this);
