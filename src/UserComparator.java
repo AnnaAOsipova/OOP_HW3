@@ -16,6 +16,5 @@ public class UserComparator<T extends User> implements Comparator<T> {
         } else {
            return resultOfComparing;
         }
-
     }
 }
