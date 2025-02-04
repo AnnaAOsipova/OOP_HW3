@@ -2,9 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TeacherService {
-    private List<Teacher> teacherList = new ArrayList<>();
+    private final List<Teacher> teacherList = new ArrayList<>();
 
     public void addTeacher(Teacher teacher) {
+
         teacherList.add(teacher);
     }
 
@@ -24,7 +25,8 @@ public class TeacherService {
     }
 
         public List<Teacher> getAllTeachers(){
-            return teacherList;
+
+        return teacherList;
         }
 }
 

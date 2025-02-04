@@ -9,17 +9,21 @@ public class Teacher extends User {
         super(name, lastName, surName);
     }
     public Long getTeacherId() {
+
         return teacherId;
     }
 
     public void setTeacherId(Long teacherId) {
+
         this.teacherId = teacherId;
     }
     public List<Teacher> getTeacherList() {
+
         return teacherList;
     }
 
     public void setTeacherList(List<Teacher> teacherList) {
+
         this.teacherList = teacherList;
     }
 

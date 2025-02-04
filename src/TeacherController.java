@@ -1,8 +1,8 @@
 import java.util.List;
 
 public class TeacherController implements UserController<Teacher>{
-    private TeacherService teacherService = new TeacherService();
-    private TeacherView teacherView = new TeacherView();
+    private final TeacherService teacherService = new TeacherService();
+    private final TeacherView teacherView = new TeacherView();
 
     public void editTeacher(String name, String surName, String lastName, String newName, String newSurName, String newLastName) {
         teacherService.editTeacher(name, surName, lastName, newName, newSurName, newLastName);

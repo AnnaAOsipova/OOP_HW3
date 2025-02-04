@@ -11,6 +11,7 @@ public class TeacherView implements UserView<Teacher> {
     }
 
     public void displayAllTeachers(List<Teacher> teacherList) {
+
         System.out.println(teacherList);
     }
 }
