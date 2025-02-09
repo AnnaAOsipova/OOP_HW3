@@ -27,7 +27,7 @@ public class Teacher extends User {
         this.teacherList = teacherList;
     }
 
-    public void createTeacher(String firstName, String surName, String lastName) {
-        teacherList.add(new Teacher(firstName, lastName, surName));
-    }
+//    public void createTeacher(String firstName, String surName, String lastName) {
+//        teacherList.add(new Teacher(firstName, lastName, surName));
+//    }
 }
